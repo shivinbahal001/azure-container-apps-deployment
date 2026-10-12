@@ -6,9 +6,9 @@ on:
     branches: [main]
 
 env:
-  AZURE_CONTAINER_REGISTRY: refitapi
-  CONTAINER_APP_NAME: refitapi
-  RESOURCE_GROUP: youtube
+  AZURE_CONTAINER_REGISTRY: myacrapp
+  CONTAINER_APP_NAME: myappcca
+  RESOURCE_GROUP: CHCDEV-RG
 
 jobs:
   build-and-deploy:
